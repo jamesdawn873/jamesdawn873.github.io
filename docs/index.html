@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>John Hu  </title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;1,300;1,400&family=Geist+Mono:wght@300;400&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <nav>
+    <div class="container">
+      <span class="nav-name">John Hu</span>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <section id="hero">
+    <div class="container">
+      <p class="hero-label">Portfolio — 2026</p>
+      <h1 class="hero-name">
+        John Hu<br>
+        <em>Software Engineer</em>
+      </h1>
+      <p class="hero-bio">
+          I'm an aspiring software engineer with a passion for building impactful projects. I enjoy working across the stack and am always eager to learn new technologies and collaborate with others. Currently pursuing a Bachelors in Computer Science at UCI, I'm open to opportunities where I can contribute, grow, and make a difference.
+      </p>
+      <div class="hero-actions">
+        <a href="#projects" class="link-arrow">View projects →</a>
+        <a href="#contact" class="link-plain">Get in touch</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="about">
+    <div class="container reveal">
+      <div class="section-header">
+        <span class="section-num">01</span>
+        <h2 class="section-title">About</h2>
+      </div>
+      <div class="about-body">
+        <p>
+          
+        </p>
+        <p>
+          
+        </p>
+      </div>
+      <div class="about-list">
+        <div class="about-row">
+          <span class="about-row-label">Based in</span>
+          <span class="about-row-value">Rosemead, CA</span>
+        </div>
+        <div class="about-row">
+          <span class="about-row-label">Currently</span>
+          <span class="about-row-value">Open to opportunities</span>
+        </div>
+        <div class="about-row">
+          <span class="about-row-label">Education</span>
+          <span class="about-row-value">Pursuing Bachelor's in CS @ UCI</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects">
+    <div class="container reveal">
+      <div class="section-header">
+        <span class="section-num">02</span>
+        <h2 class="section-title">Projects</h2>
+      </div>
+      <div class="project-list">
+
+        <a href="../resources/CS172B-Report.pdf" class="project-item" rel="noopener noreferrer" target="_blank">
+          <span class="project-idx">1</span>
+          <div>
+            <h3 class="project-name">Detecting Deepfake Tampering Within CT Scans</h3>
+            <p class="project-desc">Using machine learning to identify manipulated CT scans.</p>
+            <div class="project-tags">
+              <span class="tag">Machine Learning</span>
+              <span class="tag">Medical Imaging</span>
+              <span class="tag">2026</span>
+            </div>
+          </div>
+          <span class="project-arrow">↗</span>
+        </a>
+
+        <a href="https://freakmykappachunguslife.github.io/MCSRAI/final.html" class="project-item" rel="noopener noreferrer" target="_blank">
+          <span class="project-idx">2</span>
+          <div>
+            <h3 class="project-name">MCSR: A Speedrunning AI</h3>
+            <p class="project-desc">Developing an AI to optimize speedrunning strategies.</p>
+            <div class="project-tags">
+              <span class="tag">AI</span>
+              <span class="tag">Game Development</span>
+              <span class="tag">2026</span>
+            </div>
+          </div>
+          <span class="project-arrow">↗</span>
+        </a>
+
+        <a href="#" class="project-item">
+          <span class="project-idx">3</span>
+          <div>
+            <h3 class="project-name">IoT Laser Security System</h3>
+            <p class="project-desc">Like those lasers that you see in the movies.</p>
+            <div class="project-tags">
+              <span class="tag">ESP32</span>
+              <span class="tag">IoT, Microsoft Azure</span>
+              <span class="tag">2025</span>
+            </div>
+          </div>
+          <span class="project-arrow"></span>
+        </a>
+
+        <a href="#" class="project-item">
+          <span class="project-idx">4</span>
+          <div>
+            <h3 class="project-name">Scooter Repair</h3>
+            <p class="project-desc">Repairing scooters and other small vehicles.</p>
+            <div class="project-tags">
+              <span class="tag">Soldering</span>
+              <span class="tag">Battery Repair</span>
+              <span class="tag">2023</span>
+            </div>
+          </div>
+          <span class="project-arrow"></span>
+        </a>
+
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="container reveal">
+      <div class="section-header">
+        <span class="section-num">03</span>
+        <h2 class="section-title">Contact</h2>
+      </div>
+      <p class="contact-body">
+        Have an open position? Contact me.
+      </p>
+      <a href="mailto:johnh20@uci.edu" class="contact-email">johnh20@uci.edu</a>
+      <div class="social-row">
+        <a href="https://github.com/jamesdawn873">GitHub</a>
+        <a href="https://www.linkedin.com/in/john-hu-a4558a176/">LinkedIn</a>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <span>© 2026 John Hu</span>
+    </div>
+  </footer>
+
+  <script>
+    const obs = new IntersectionObserver(entries => {
+      entries.forEach(e => {
+        if (e.isIntersecting) { e.target.classList.add('visible'); obs.unobserve(e.target); }
+      });
+    }, { threshold: 0.08 });
+    document.querySelectorAll('.reveal').forEach(el => obs.observe(el));
+  </script>
+
+</body>
+</html>
